@@ -203,15 +203,40 @@ header {
   border-bottom: 1px solid white;
 }
 
-  main div p{
+  .image{
+
+  width: 23px;
+   height: 34px  /*why is not doing nothing */
+  
+  }
+
+  .content h2{
 
     justify-content: center;
+    margin-top: 30px;
+    text-align: center;
    }
    .main-article{
-
+    margin: 10px; ;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
+}
+   .content .btn {
+    
+    align-items: center;
+    margin-left: 50px;
+  
+  
+    
+   
+    
+}
+
+.btn:hover{
+
+  color: rgb(103, 184, 22); /*interesting .btn:hover*/
+  
 }
 
 .articles-container{
@@ -220,6 +245,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   /* flex-grow: 100;  ???*/
   
 
